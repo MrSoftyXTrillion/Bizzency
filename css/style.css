@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Open+Sans&family=Ubuntu:wght@300;400;500&display=swap");
+
+:root {
+    --1stfont: "Ubuntu", sans-serif;
+    --2ndfont: "Abril Fatface", cursive;
+    --3rdfont: "Open Sans", sans-serif;
+    --1stcolor: #0f2f44;
+    --2ndcolor: #ffc712;
+    --3rdcolor: #222222;
+    --4thcolor: #999999;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul,ol {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+/* COMMON CSS STARTS HERE */
+.container {
+    width: 1170px;
+    margin: auto;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.makespacebetween {
+    justify-content: space-between;
+}
+/* COMMON CSS ENDS HERE */
+
+#top_header {
+    background-color: #0f2f44;
+}
+#top_header .greetingpart {
+    color: #fefefe;
+    padding: 18px 0;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--1stfont);
+}
+#top_header .shedule {
+    color: #fefefe;
+    padding: 18px 0;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--1stfont);
+}
+
+
+nav .logo {
+    width: 30%;
+    display: flex;
+    margin: 30px 0;
+}
+nav .menu {
+    width: 70%;
+    text-align: right;
+}
+nav .menu li {
+    display: inline-block;
+    padding: 41px 20px;
+    
+}
+nav .menu li a {
+    color: var(--3rdcolor);
+    font-size: 16px;
+    font-weight: 600;
+    font-family: var(--1stfont);
+}
+nav .menu .icon {
+    display: inline-block;
+    color: var(--4thcolor);
+    padding: 4px 8px;
+    border: 1px solid var(--4thcolor);
+    border-radius: 26px;
+    margin: 34px 10px;
+}
+nav .menu .home {
+    background-color: #fff9e6;
+    color: #ffc712;
+}
+nav .menu .home a {
+    color: var(--2ndcolor);
+}
+
+
+
+#banner {
+    background-image: url(../img/banner.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 595px;
+}
+#banner .banner_cnt {
+    width: 465px;
+    display: inline-block;
+    text-align: left;
+    padding-top: 67px;
+}
+#banner .banner_cnt h3 {
+    color: var(--1stcolor);
+    font-size: 50px;
+    font-weight: 300;
+    font-family: var(--1stfont);
+    height: 30px;
+}
+#banner .banner_cnt h1 {
+    color: var(--1stcolor);
+    font-size: 80px;
+    font-weight: 400;
+    font-family: var(--2ndfont);
+    height: 93px;
+
+}
+#banner .banner_cnt h4 {
+    color: #8484bf;
+    font-size: 32px;
+    font-weight: 400;
+    font-family: var(--1stfont);
+    letter-spacing: 17px;
+}
+#banner .banner_cnt p {
+    color: #444444;
+    font-family: var(--3rdfont);
+    font-size: 14px;
+    font-weight: 400;
+    width: 400px;
+    margin: 30px 0;
+}
+#banner .banner_cnt .row {
+    margin: 0 20px;
+}
+#banner .banner_cnt .row button {
+    padding: 16px 19px;
+    border-radius: 8px;
+    background-color: #8383bf;
+    color: white;
+    border: none;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: var(--1stfont);
+}
+#banner .banner_cnt .row .icon i{
+    background-color: #ffffff;
+    font-size: 25px;
+    border: none;
+    border-radius: 70px;
+    color: #8484bf;
+    padding: 20px;
+}
+#banner .banner_cnt .row .icon {
+    padding: 0 25px;
+}
